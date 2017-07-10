@@ -1,0 +1,2 @@
+class GuestEpisodeController < ApplicationController
+end

@@ -1,0 +1,5 @@
+<%= form_tag "/users/success" do %>
+  Episode: <%= number_field_tag :'episode[id]' %><br>
+  Guest: <%= text_field_tag  :'guest[name]' %>
+  <%= submit_tag "Add Guest to Episode" %>
+<% end %>
